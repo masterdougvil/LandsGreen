@@ -495,7 +495,7 @@ footer{background:#0E1A0E;padding:70px 5% 30px}
 <!-- TESTIMONIALS -->
 <section class="testimonials" id="testimonials">
   <div class="testimonials-header">
-    <span class="section-eyebrow reveal">Real Reviews</span>
+    <span class="section-eyebrow reveal">Sample testimonials — demonstration only</span>
     <h2 class="section-title reveal">What Our Clients <em>Say</em></h2>
   </div>
   <div class="testimonials-grid">
@@ -515,7 +515,7 @@ footer{background:#0E1A0E;padding:70px 5% 30px}
           <div class="author-location">Coral Gables, FL</div>
         </div>
       </div>
-      <span class="verified-badge">✓ Verified</span>
+      <span class="verified-badge">Illustrative testimonial</span>
     </div>
     <div class="testimonial-card reveal">
       <div class="stars">
@@ -533,7 +533,7 @@ footer{background:#0E1A0E;padding:70px 5% 30px}
           <div class="author-location">Kendall, FL</div>
         </div>
       </div>
-      <span class="verified-badge">✓ Verified</span>
+      <span class="verified-badge">Illustrative testimonial</span>
     </div>
     <div class="testimonial-card reveal">
       <div class="stars">
@@ -551,7 +551,7 @@ footer{background:#0E1A0E;padding:70px 5% 30px}
           <div class="author-location">Doral, FL</div>
         </div>
       </div>
-      <span class="verified-badge">✓ Verified</span>
+      <span class="verified-badge">Illustrative testimonial</span>
     </div>
   </div>
 </section>
@@ -680,11 +680,11 @@ function toggleMenu() {
 
 function submitForm(e) {
   e.preventDefault();
-  const btn = e.target.querySelector('.form-btn');
-  btn.innerHTML = '<svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:white"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Request Sent! We\'ll contact you soon.';
-  btn.style.background = '#3D6B1F';
-  btn.disabled = true;
+  window.openDemoReview('Quote simulation');
 }
 </script>
+
+<script src="demo-experience.js"></script>
 </body>
+
 </html>
